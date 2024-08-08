@@ -23,7 +23,7 @@ class CityType extends AbstractType
             ])
             ->add("submit", SubmitType::class, [
                 "label" => "Get Daylight Data",
-                "attr" => ["class" => "btn btn-primary"],
+                "attr" => ["class" => "btn btn-primary mt-2"],
             ]);
     }
 }
